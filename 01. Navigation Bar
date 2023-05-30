@@ -1,0 +1,49 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nav Bar Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+</body>
+</html>
+
+CSS
+
+header{
+    background: gray;
+}
+
+
+header nav ul{
+  /*display:flex - zastavat edno do drugo*/
+  padding: 1em; /*razstoqnnie otgore i otdolu*/
+  text-align: center;
+}
+
+header nav li{
+    /*display:block*/
+    display: inline;/*podoben efekt - pak zastavat edno do drugo*/
+    padding: 0 1em;/*razstoqnie mejdu linkovete*/
+}
+
+header nav a{
+    color: white;
+}
